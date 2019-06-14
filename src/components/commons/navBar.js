@@ -6,29 +6,15 @@ class NavBAR extends React.Component {
   render() {
     return (
       <Fragment>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-          <a class="navbar-brand" href="/">
-            Navbar
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-toggle="collapse"
-            data-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon" />
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-item nav-link active" href="/">
-                Home <span class="sr-only">(current)</span>
+        <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
+          <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div className="navbar-nav">
+              <a className="nav-item nav-link active" href="/">
+                Home <span className="sr-only">(current)</span>
               </a>
-              <a class="nav-item nav-link" href="/">
-                Features
-              </a>
+              <h1 className="nav-item nav-link" style={{marginLeft: '320px'}}>
+              CHM Phone Number generator
+              </h1>
             </div>
           </div>
         </nav>

@@ -1,8 +1,9 @@
 import React from 'react';
 import './App.css';
-import PhoneNumberGenerator from './components/phoneNumberGen';
-import SignIn from './components/user/user'
+// import PhoneNumberGenerator from './components/phoneNumberGen';
+// import SignIn from './components/user/user'
 import NavBAR from './components/commons/navBar';
+import Generator from './components/generator';
 
 function App() {
   return (
@@ -10,12 +11,10 @@ function App() {
       <header>
       <NavBAR/>
       </header>
-      <p>
-          Phone Number generator
-        </p>
-      <PhoneNumberGenerator />
+      {/* <PhoneNumberGenerator /> */}
       <div style={{margin: '100px'}}>
-      <SignIn/>
+      <Generator/>
+      {/* <SignIn/> */}
       </div>
     </div>
   );
