@@ -16,9 +16,9 @@ class MainNav extends React.Component {
                 <Link className="nav-item nav-link active" to="/login">
                 Logout
                 </Link>
-              <h1 className="nav-item nav-link" style={{marginLeft: '320px'}}>
+              <h2 className="nav-item nav-link" style={{marginLeft: '320px'}}>
               Vodafone Phone Number generator
-              </h1>
+              </h2>
             </div>
           </div>
         </nav>

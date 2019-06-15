@@ -13,12 +13,12 @@ class NavBAR extends React.Component {
                 <Link className="nav-item nav-link active" to="/login">
                 Login
                 </Link>
-                <Link className="nav-item nav-link active" to="/signup">
+                <Link className="nav-item nav-link active" to="/">
                 Sign Up
                 </Link>
-              <h1 className="nav-item nav-link" style={{marginLeft: '320px'}}>
+              <h2 className="nav-item nav-link" style={{marginLeft: '320px'}}>
               Vodafone Phone Number generator
-              </h1>
+              </h2>
             </div>
           </div>
         </nav>
