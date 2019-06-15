@@ -1,23 +1,12 @@
 import React from 'react';
-import './App.css';
-import PhoneNumberGenerator from './components/phoneNumberGen';
-import SignIn from './components/user/user'
-import NavBAR from './components/commons/navBar';
+import { BrowserRouter as Router} from "react-router-dom";
+import Routes from './routes/index'
 
 function App() {
   return (
-    <div className="App">
-      <header>
-      <NavBAR/>
-      </header>
-      <p>
-          Phone Number generator
-        </p>
-      <PhoneNumberGenerator />
-      <div style={{margin: '100px'}}>
-      <SignIn/>
-      </div>
-    </div>
+      <Router>
+      <Routes/>
+    </Router>
   );
 }
 

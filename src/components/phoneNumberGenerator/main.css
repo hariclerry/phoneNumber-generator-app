@@ -1,0 +1,44 @@
+.input-container {
+  margin: 0 0 80px 0;
+}
+
+.main-container {
+  margin: 80px 0 0 0;
+}
+
+.sort-download {
+  display: flex;
+  justify-content: space-between;
+}
+
+.download{
+  border: 1px solid  #80b3ff;
+  border-radius: 9px;
+}
+
+.title {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 600;
+  color: whitesmoke;
+  font-size: 1.8rem;
+}
+
+p {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
+h1, h2, h3, h5 {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 600;
+}
+
+i {
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+.title-home {
+  padding: 20px 0 40px 0;
+}
