@@ -21,6 +21,7 @@ describe('Login Component', () => {
   });
 
   it('should call handleFormSubmit', () => {
+    window.alert = jest.fn();
     const props = {
       history: {
         push: jest.fn()
@@ -30,5 +31,6 @@ describe('Login Component', () => {
     const spy = jest.spyOn(wrapper.instance(), 'handleFormSubmit');
     wrapper.instance().handleFormSubmit();
     expect(spy).toHaveBeenCalled();
+    window.alert.mockClear();
   });
 })
