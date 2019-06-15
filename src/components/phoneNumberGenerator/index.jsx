@@ -9,12 +9,13 @@ import './main.css';
 
 class Generator extends Component {
   state = {
+    phoneNumbers: [],
     limit: 1,
     total: 0,
     sorter: 'asc',
     min: null,
     max: null,
-    phoneNumbers: []
+    error: false
   };
 
   handleGenerateNumber = event => {
@@ -68,7 +69,7 @@ class Generator extends Component {
     } catch (e) {
       this.setState({
         error: true,
-        message: 'Error occurred while parsing the input'
+        message: 'An error occured, please try again'
       });
     }
   };

@@ -8,13 +8,27 @@ describe('Login Component', () => {
     expect(wrapper).toBeTruthy();
   })
 
-  // it('should call toggledrawer onclick', () => {
-  //   const spy = sinon.fake(jest.fn);
-  //   const props = {
-  //     handleClick: spy
-  //   }
-  //   const wrapper = shallow(<CustomButton {...props} />);
-  //   expect(wrapper.find('Button').at(0).simulate('click'));
-  //   expect(wrapper).toBeTruthy();
-  // })
+  it('should call handleChange', () => {
+    const event = {
+      target: {
+        value: 'gdhhr9'
+      }
+    };
+    const wrapper = shallow(<Login />);
+    const spy = jest.spyOn(wrapper.instance(), 'handleChange');
+    wrapper.instance().handleChange(event);
+    expect(spy).toHaveBeenCalled();
+  });
+
+  it('should call handleFormSubmit', () => {
+    const props = {
+      history: {
+        push: jest.fn()
+      }
+    }
+    const wrapper = shallow(<Login {...props}/>);
+    const spy = jest.spyOn(wrapper.instance(), 'handleFormSubmit');
+    wrapper.instance().handleFormSubmit();
+    expect(spy).toHaveBeenCalled();
+  });
 })
