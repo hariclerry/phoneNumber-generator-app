@@ -39,4 +39,6 @@ i {
   font-weight: 600;
   font-size: 1.5rem;
 }
-
+.title-home {
+  padding: 20px 0 40px 0;
+}

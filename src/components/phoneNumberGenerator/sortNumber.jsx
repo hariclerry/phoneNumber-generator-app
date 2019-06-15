@@ -1,7 +1,7 @@
 import React, {Fragment }from 'react';
 
 
-const Sorter = ({ phoneNumbers, onChange}) => (
+const NumberSort = ({ phoneNumbers, onChange}) => (
     <Fragment>
 {
   phoneNumbers.length > 0 &&
@@ -18,4 +18,4 @@ const Sorter = ({ phoneNumbers, onChange}) => (
     </Fragment>
 
 );
-export default Sorter;
+export default NumberSort;
