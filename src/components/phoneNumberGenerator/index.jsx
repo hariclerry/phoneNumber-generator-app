@@ -24,7 +24,7 @@ class Generator extends Component {
     if (limit > 10000)
       return this.setState({
         error: true,
-        message: 'The number entered exceeds the accepted limit'
+        message: alert('The number entered exceeds the accepted limit')
       });
     let phoneNumbers = [];
     let phoneNumber = 0;
@@ -102,7 +102,7 @@ class Generator extends Component {
     const { min, max, total, phoneNumbers } = this.state;
     return (
       <Fragment>
-        <div style={{ margin: '0 0 150px 0' }}>
+        <div style={{ margin: '0 0 100px 0' }}>
           >
           <MainNav />
         </div>
