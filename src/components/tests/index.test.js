@@ -15,6 +15,7 @@ describe('Generator Component', () => {
   })
 
   it('should set error to true when limit is exceeded', () => {
+    window.alert = jest.fn();
     const event = {
       preventDefault: () => {},
     };
@@ -23,6 +24,7 @@ describe('Generator Component', () => {
     const state = wrapper.state();
     expect(state.limit).toEqual(50000);
     expect(state.error).toBe(true);
+    window.alert.mockClear();
   });
 
   it('should call handleGenerateNumber', () => {

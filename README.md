@@ -2,6 +2,7 @@
 [![Coverage Status](https://coveralls.io/repos/github/hariclerry/phoneNumber-generator-app/badge.svg)](https://coveralls.io/github/hariclerry/phoneNumber-generator-app)
 
 ## Phone Number Generator APP
+   Phone Number Generator APP is a phone number generator app that generates phone number automatically producing unique numbers.
 
 ### FEATURES
 
@@ -36,10 +37,6 @@ With Phone Number Generator APP you can:
 * In order to test the application you can run the command
 ```npm run test``` 
 
-VERSIONS
-
-The API runs with one version, Version 1 
-
 ### Checkout the live app on heroku
-Heroku link: https://population-mgt-sys.herokuapp.com/
+Heroku link: https://phone-number-generator-app.herokuapp.com
 

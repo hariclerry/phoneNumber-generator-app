@@ -29,14 +29,14 @@ class SignUp extends Component {
     return (
       <React.Fragment>
         <NavBAR/>
-      <div class="container" style={{margin: '200px 0 0 400px'}}>
+      <div className="container" style={{margin: '200px 0 0 200px'}}>
         <h3 className="title-home"> Welcome to Vodafone Phone Number Generator App, please sign up to get started</h3>
       <form onSubmit={this.handleFormSubmit}>
         <div className="form-group row">
           <label htmlFor="col-sm-2 col-form-label" className="col-sm-2 col-form-label">
             Name
             </label>
-            <div class="col-4">
+            <div className="col-4">
             <input
               className="form-control input-control"
               type="text"
@@ -50,7 +50,7 @@ class SignUp extends Component {
           <label htmlFor="col-sm-2 col-form-label" className="col-sm-2 col-form-label">
             Email
             </label>
-            <div class="col-4">
+            <div className="col-4">
             <input
               className="form-control"
               type="email"
@@ -64,7 +64,7 @@ class SignUp extends Component {
           <label htmlFor="col-sm-2 col-form-label" className="col-sm-2 col-form-label">
             Password {' '}
             </label>
-            <div class="col-4">
+            <div className="col-4">
             <input
               className="form-control"
               type="password"

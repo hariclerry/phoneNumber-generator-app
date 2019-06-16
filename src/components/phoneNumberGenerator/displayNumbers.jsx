@@ -8,7 +8,7 @@ const DisplayNumbers = ({ phoneNumbers }) => {
           <i>No phone numbers to display</i>
         </span>
       ) : (
-        <h3 style={{ margin: '60px' }}>List of Generated Phone Numbers</h3>
+        <h3 style={{ margin: '30px' }}>List of Generated Phone Numbers</h3>
       )}
       <div className="table-responsive">
         <table className="table table-striped table-lg">
